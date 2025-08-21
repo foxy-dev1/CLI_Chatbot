@@ -93,10 +93,5 @@ exiting Byee !!
 - **Out Of Memory (OOM)**:
   - Lower `max_new_tokens`, reduce context size, ensure only necessary processes are using GPU, or use a smaller model.
 
-## Notes
-- **Ephemeral memory**: chat history is kept in-process only; no persistence.
-- **Exit command**: type `/exit` to quit the CLI.
 
-## License
-No license has been specified. Add a license if you intend to distribute or share this project.
 
